@@ -1,48 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 
 <body>
+    <div class="container">
 
-    <header>
-        <nav class="navbar">
-            <h1 class="logo">My Portfolio</h1>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </header>
 
-    <main>
-        <section class="projects-grid">
-            <h2>My Projects</h2>
+        <header class="bg-light py-5 text-center">
+            <div class="container">
+                <h1 class="display-4 fw-bold">My Projects</h1>
+                <p class="lead mb-4">Explore the projects I've worked on.</p>
+            </div>
+        </header>
 
-            <article class="project-card">
-                <h3>Project One</h3>
-                <p>Description of Project One. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
-            </article>
+        <main class="py-5">
+            <div class="container">
+                <div class="row g-4">
 
-            <article class="project-card">
-                <h3>Project Two</h3>
-                <p>Description of Project Two. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>  
-            </article>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
 
-            <article class="project-card">
-                <h3>Project Three</h3>
-                <p>Description of Project Three. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </article>
-            
-        </section>
-    </main>
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Project One</h5>
+                                <p class="card-text">Description of Project One. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
 
-    <footer>
-        <p>&copy; 2026 My Portfolio</p>
-    </footer>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Project Two</h5>
+                                <p class="card-text">Description of Project Two. Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Project Three</h5>
+                                <p class="card-text">Description of Project Three. Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-dark text-white text-center py-3 mt-5">
+            <p class="mb-0">&copy; 2026 My Portfolio</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+            </script>
+    </div>
 </body>
