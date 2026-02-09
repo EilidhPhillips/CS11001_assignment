@@ -1,0 +1,19 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Geist', sans-serif;
+}
+
+h1,
+h2 {
+    color: #2a4d8f;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+.get-in-touch ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.get-in-touch li {
+    margin-bottom: 0.5rem;
+}
