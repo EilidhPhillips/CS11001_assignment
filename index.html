@@ -11,47 +11,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-    
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
-    <div class="container">
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+            <div class="container">
                 <a class="navbar-brand" href="index.html">My Portfolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" id="mainNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+    </header>
 
-        <header class="bg-light py-5 text-center">
-            <div class="container">
-                <h1 class="display-4 fw-bold">Welcome to My Portfolio</h1>
-                <p class="lead mb-4">Discover my projects, skills, and experience.</p> <a class="btn btn-primary btn-lg"
-                    href="projects.html">View Projects</a>
+    <main class="bg-light py-5 text-center mt-4">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to My Portfolio</h1>
+            <p class="lead mb-4">Discover my projects, skills, and experience.</p>
+            <a class="btn btn-primary btn-lg" href="projects.html">View Projects</a>
+        </div>
+
+        <section class="py-5">
+            <div class="container text-center">
+                <h2 class="h4 fw-semibold mb-3">What I Do</h2>
+                <p class="text-muted mb-0"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor
+                    incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut </p>
             </div>
-        </header>
+        </section>
+    </main>
 
-        <footer class="bg-dark text-white text-center py-3 mt-5">
-            <p class="mb-0">&copy; 2026 My Portfolio</p>
-        </footer>
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p class="mb-0">&copy; 2026 My Portfolio</p>
+    </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-            </script>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
