@@ -7,37 +7,37 @@
     <title>Projects | My Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+            <div class="container">
                 <a class="navbar-brand" href="index.html">My Portfolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" id="mainNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+    </header>
 
-        <header class="bg-light py-5 text-center">
+        <main class="bg-light py-5 mt-4">
             <div class="container">
-                <h1 class="display-4 fw-bold">My Projects</h1>
+                <h2 class="fw-bold mb-3">My Projects</h2>
                 <p class="lead mb-4">Explore the projects I've worked on.</p>
             </div>
-        </header>
+        
 
-        <main class="py-5">
+        
             <div class="container">
                 <div class="row g-4">
 
@@ -45,6 +45,7 @@
                         <div class="card h-100 shadow-sm">
 
                             <div class="card-body">
+                                <img src="https://picsum.photos/200" class="card-img-top mb-3" alt="Project One">
                                 <h5 class="card-title fw-bold">Project One</h5>
                                 <p class="card-text">Description of Project One. Lorem ipsum dolor sit amet, consectetur
                                     adipiscing elit.</p>
@@ -56,6 +57,7 @@
                         <div class="card h-100 shadow-sm">
 
                             <div class="card-body">
+                                <img src="https://picsum.photos/200" class="card-img-top mb-3" alt="Project Two">
                                 <h5 class="card-title fw-bold">Project Two</h5>
                                 <p class="card-text">Description of Project Two. Lorem ipsum dolor sit amet, consectetur
                                     adipiscing elit.</p>
@@ -67,6 +69,7 @@
                         <div class="card h-100 shadow-sm">
 
                             <div class="card-body">
+                                <img src="https://picsum.photos/200" class="card-img-top mb-3" alt="Project Three">
                                 <h5 class="card-title fw-bold">Project Three</h5>
                                 <p class="card-text">Description of Project Three. Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit.</p>
