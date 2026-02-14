@@ -1,3 +1,16 @@
+:root {
+    --clr-light: #F1DEDE;
+    --clr-accent: #D496A7;
+    --clr-dark: #5D576B;
+    --clr-soft: #E0FBFC;
+    /* Override Bootstrap theme colours */
+    --bs-primary: var(--clr-accent);
+    --bs-secondary: var(--clr-soft);
+    --bs-dark: var(--clr-dark);
+    --bs-light: var(--clr-light);
+}
+
 .nav-link:hover {
     text-decoration: underline;
 }
+
