@@ -13,12 +13,13 @@ body {
     font-family: 'Mona Sans', sans-serif;
     background-color: var(--hero-light);
     color: var(--hero-text);
+    line-height: 1.6;
 }
 
 
 .navbar,
 footer {
-    background-color: var(--hero-dark) !important;
+    background-color: var(--hero-dark);
 }
 
 .btn-primary {
