@@ -1,19 +1,36 @@
 :root {
-    --clr-light: #F1DEDE;
-    --clr-accent: #D496A7;
-    --clr-dark: #5D576B;
-    --clr-soft: #E0FBFC;
-    /* Override Bootstrap theme colours */
-    --bs-primary: var(--clr-accent);
-    --bs-secondary: var(--clr-soft);
-    --bs-dark: var(--clr-dark);
-    --bs-light: var(--clr-light);
+
+    --hero-primary: #b08d57;
+    --hero-dark: #2b2b2b;
+    --hero-light: #f5f3ee;
+    --hero-text: #333333;
+    
+}
+
+
+
+body {
+    font-family: 'Mona Sans', sans-serif;
+    background-color: var(--hero-light);
+    color: var(--hero-text);
+}
+
+
+.navbar,
+footer {
+    background-color: var(--hero-dark) !important;
+}
+
+.btn-primary {
+    background-color: var(--hero-primary);
+    border-color: var(--hero-primary);
+}
+
+.btn-primary:hover {
+    background-color: #9a7848;
+    border-color: #9a7848;
 }
 
 .nav-link:hover {
     text-decoration: underline;
-}
-
-body {
-    font-family: 'Mona Sans', sans-serif;
 }
