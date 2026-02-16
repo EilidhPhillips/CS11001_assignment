@@ -22,6 +22,10 @@ footer {
     background-color: var(--hero-dark);
 }
 
+.navbar{
+    border-bottom: 3px solid var(--hero-primary);
+}
+
 .btn-primary {
     background-color: var(--hero-primary);
     border-color: var(--hero-primary);
