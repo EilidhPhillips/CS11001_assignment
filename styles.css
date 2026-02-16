@@ -39,3 +39,7 @@ footer {
 .nav-link:hover {
     text-decoration: underline;
 }
+
+.text-bronze {
+    color: var(--hero-primary) !important;
+}
